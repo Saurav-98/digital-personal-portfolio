@@ -19,6 +19,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 0.4rem;
 
   img {
     width: 90px;
@@ -46,8 +47,8 @@
     flex-direction: column;
 
     div {
-      width: 5px;
-      height: 5px;
+      width: 8px;
+      height: 8px;
       background: transparent;
       border-radius: 50%;
 
@@ -86,6 +87,7 @@
   height: 35px;
   border-radius: 50%;
   position: relative;
+  margin-top: 0.4rem;
 
   display: flex;
   justify-content: center;
@@ -113,6 +115,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    gap: 2rem;
     flex-direction: column;
 
     background: url("../../assets/bgWhite.png");
